@@ -1,0 +1,111 @@
+
+.text-contact-me{
+    color:  rgb(63, 114, 139) !important;
+}
+
+.text-contact-me :hover{
+    color: whitesmoke;
+}
+
+
+#header img{
+    width: 60px;
+}
+
+#header{
+    background-color: #131313 ;
+    background: linear-gradient(90deg, #1C3643,#131313 25%,#131313);
+}
+
+
+#footer {
+    background: linear-gradient(90deg, #1C3643,#131313 25%,#131313); /*2a2a2a*/
+}
+
+#footer a{
+    color: white;
+}
+
+#Hello {
+    padding: 0% 8% 0 10%;
+    background: #131313;
+    font-family: 'lato', sans-serif;
+    background: linear-gradient(90deg, #1C3643,#131313 25%,#131313);
+    text-align: left;
+}
+
+.tagline3a{
+    font-family: 'courier', sans-serif;
+    font-size: 1.75em;
+    font-style: italic;
+    color: #666;
+    text-align: left;
+    line-height: 1em;
+    text-shadow: 1px 1px black;
+    padding-left: 15%;
+  }
+
+  .tagline3b{
+    font-family: 'courier', sans-serif;
+    font-size: 1.75em;
+    font-style: italic;
+    color: #666;
+    text-align: left;
+    line-height: 1em;
+    text-shadow: 1px 1px black;
+    padding-left: 25%;
+  }
+
+#AboutMe{
+    margin: 0% 10% 0 10%;
+    padding: 0 10% 0 10%;
+    text-align: center;
+    
+}
+
+#Skills{
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#Portfolio{
+    padding: 5% 10% 5% 10%;
+    background: linear-gradient(90deg, #1C3643,#131313 25%,#131313);
+    color: whitesmoke;
+    text-align: center;
+}
+
+#Portfolio-card{
+    color: black !important;
+}
+
+
+.icono{
+    width: 100% !important;
+    height: 20% !important;
+    color: #1C3643;
+    text-align: center;
+}
+
+.iconos-contacto{
+    width: 15px !important;
+    height: 15px !important;
+    color: #131313;
+    margin: auto;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1C3643 !important;
+    border-color: whitesmoke;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #131313 !important;
+    border-color: #131313 !important;
+  }
+
+

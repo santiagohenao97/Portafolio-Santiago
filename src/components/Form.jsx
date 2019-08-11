@@ -64,7 +64,6 @@ class Form extends React.Component {
               <div className="md-form">
                 <textarea
                   onChange={this.props.onChange}
-                  type="text"
                   name="message"
                   rows="2"
                   className="form-control md-textarea"

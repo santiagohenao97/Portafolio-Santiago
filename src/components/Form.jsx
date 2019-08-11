@@ -8,7 +8,7 @@ class Form extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <form onSubmit={this.props.onSubmit}>
+        <form name="contactMe" onSubmit={this.props.onSubmit}>
           <div className="row">
             <div className="col-md-6">
               <div className="md-form mb-0">

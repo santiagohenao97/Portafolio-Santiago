@@ -21,7 +21,7 @@ class ContactForm extends Component {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", ...this.state })
+            body: encode({ "form-name": "contactMe", ...this.state })
           })
             .then(() => alert("¡Su Mensaje fue enviado!"))
             .catch(error => alert(error));

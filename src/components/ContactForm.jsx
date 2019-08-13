@@ -9,7 +9,7 @@ const encode = (data) => {
 
 class ContactForm extends Component {
     state = { 
-        form:{
+        data:{
             name:'',
             email:'',
             subject:'',
@@ -21,7 +21,7 @@ class ContactForm extends Component {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contactMe", ...this.state })
+            body: encode({ "form-name": "contactMe", ...this.state.data })
           })
             .then(() => alert("¡Su Mensaje fue enviado!"))
             .catch(error => alert(error));
@@ -30,8 +30,8 @@ class ContactForm extends Component {
 
     handleChange = e => {
         this.setState({
-            form: {
-                ...this.state.form,
+            data: {
+                ...this.state.data,
                 [e.target.name]: e.target.value
             }
         })
@@ -48,7 +48,7 @@ class ContactForm extends Component {
                 <Form
                     onChange={this.handleChange}
                     onSubmit={this.handleSubmit}
-                    formValues = {this.state.form}
+                    formValues = {this.state.data}
                 
                 />
             </div>

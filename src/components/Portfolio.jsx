@@ -27,7 +27,7 @@ const Portfolio = () => (
                   <p>
                     Measurement and control of crops in a sustainable way in the fields of Sucre, Colombia {'('}In process{')'}
                   </p>
-                  <a className="btn btn-primary disabled" href="#">
+                  <a className="btn btn-primary disabled" href="#" target="_blank">
                     Demo
                   </a>
                 </div>
@@ -64,7 +64,7 @@ const Portfolio = () => (
                   <p>
                   Portal that contains information about Demo-day of Academia-Geek and allows you to register and buy tickets
                   </p>
-                  <a className="btn btn-primary " href="https://academia-geek.netlify.com">
+                  <a className="btn btn-primary " href="https://academia-geek.netlify.com" target="_blank">
                     Demo
                   </a>
                 </div>
@@ -83,7 +83,7 @@ const Portfolio = () => (
                   <p>
                   Portal that contains information about Academia-Geek and its courses
                   </p>
-                  <a className="btn btn-primary " href="https://academia-geek-landing.firebaseapp.com">
+                  <a className="btn btn-primary " href="https://academia-geek-landing.firebaseapp.com" target="_blank">
                     Demo
                   </a>
                 </div>
@@ -102,7 +102,7 @@ const Portfolio = () => (
                   <p>
                   Web Store built by geek academy students {'('}in process{')'}
                   </p>
-                  <a className="btn btn-primary disabled" href="https://tienda-virtual-geek.firebaseapp.com">
+                  <a className="btn btn-primary disabled" href="https://tienda-virtual-geek.firebaseapp.com" target="_blank">
                     Demo
                   </a>
                 </div>
@@ -121,7 +121,7 @@ const Portfolio = () => (
                   <p>
                   Streaming player-user interface {'('}in process{')'}
                   </p>
-                  <a className="btn btn-primary disabled" href="#">
+                  <a className="btn btn-primary disabled" href="#" target="_blank">
                     Demo
                   </a>
                 </div>

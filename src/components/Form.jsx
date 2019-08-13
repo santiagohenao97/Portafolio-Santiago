@@ -20,7 +20,7 @@ class Form extends React.Component {
                   value={this.props.formValues.name}
                   required
                 />
-                <label htmlFor="name" className="">
+                <label htmlFor="name" className="text-dark">
                   Your name
                 </label>
               </div>
@@ -35,7 +35,7 @@ class Form extends React.Component {
                   value={this.props.formValues.email}
                   required
                 />
-                <label htmlFor="email" className="">
+                <label htmlFor="email" className="text-dark">
                   Your email
                 </label>
               </div>
@@ -53,7 +53,7 @@ class Form extends React.Component {
                   value={this.props.formValues.subject}
                   required
                 />
-                <label htmlFor="subject" className="">
+                <label htmlFor="subject" className="text-dark">
                   Subject
                 </label>
               </div>
@@ -70,7 +70,7 @@ class Form extends React.Component {
                   value={this.props.formValues.message}
                   required
                 />
-                <label htmlFor="message">Your message</label>
+                <label htmlFor="message" className="text-dark">Your message</label>
               </div>
             </div>
           </div>

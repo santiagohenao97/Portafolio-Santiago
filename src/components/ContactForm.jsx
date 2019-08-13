@@ -8,20 +8,21 @@ const encode = (data) => {
   }
 
 class ContactForm extends Component {
-    state = { 
-        data:{
+    constructor(props) {
+        super(props);
+        this.state = { 
             name:'',
             email:'',
             subject:'',
             message:'',
         }
-     }
+    }
 
     handleSubmit = e => {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contactMe", ...this.state.data })
+            body: encode({ "form-name": "contactMe", ...this.state })
           })
             .then(() => alert("¡Su Mensaje fue enviado!"))
             .catch(error => alert(error));
@@ -30,10 +31,10 @@ class ContactForm extends Component {
 
     handleChange = e => {
         this.setState({
-            data: {
-                ...this.state.data,
+             
+                ...this.state,
                 [e.target.name]: e.target.value
-            }
+            
         })
     }
 
@@ -48,7 +49,7 @@ class ContactForm extends Component {
                 <Form
                     onChange={this.handleChange}
                     onSubmit={this.handleSubmit}
-                    formValues = {this.state.data}
+                    formValues = {this.state}
                 
                 />
             </div>

@@ -6,7 +6,7 @@ const Hello= () => (
         <div className="row ">
             <div className="col-sm-6 ">
                 <h1 className="display-4 ml-3">Hello, I am Santiago!</h1>
-                <p className="lead ml-3">Electronic Engineer and EngD. Candidate at UPB<br/> My alter-ego is a FrontEnd Developer and I love him…</p>
+                <p className="lead ml-3">Electronic Engineer and EngD. Candidate at UPB<br/> My alter-ego is a FrontEnd Developer and I love it…</p>
                 <hr className="my-4 bg-light"/>
                 <p className="ml-3">Do not think twice and let's do it together.</p>
                 <a className="btn btn-primary btn-lg ml-3" href="#ContactMe" role="button">Contact Me!</a>

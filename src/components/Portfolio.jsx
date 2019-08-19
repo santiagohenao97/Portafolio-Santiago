@@ -1,5 +1,5 @@
 import React from "react";
-import SmartFarming from "../img/smart-farming.jpg";
+import SmartFarming from "../img/SF.PNG";
 import GonzaloArango from "../img/Gonzalo-Arango.jpg";
 import GeekConference from "../img/Geek-Conference.PNG";
 import acadGeek from "../img/acadGeek.PNG"
@@ -25,9 +25,9 @@ const Portfolio = () => (
                 <div className="text content-center">
                   <h4 className="mb0 text-white">Smart Farming App</h4>
                   <p>
-                    Measurement and control of crops in a sustainable way in the fields of Sucre, Colombia {'('}In process{')'}
+                    Measurement and control of crops in a sustainable way in the fields of Sucre, Colombia 
                   </p>
-                  <a className="btn btn-primary disabled" href="#" target="_blank">
+                  <a className="btn btn-primary " href="https://smartfarmingshg.netlify.com/" target="_blank">
                     Demo
                   </a>
                 </div>
